@@ -60,40 +60,6 @@ public class Robot {
 		}
 	}
 	
-	public void reculer() {
-		switch(orientation) {
-		case Nord:
-			y--;
-			break;
-		case Est:
-			x--;
-			break;
-		case Sud:
-			y++;
-			break;
-		case Ouest:
-			x++;
-			break;
-		}
-	}
-	
-	public void reculer(int distance) {
-		switch(orientation) {
-		case Nord:
-			y-= distance;
-			break;
-		case Est:
-			x-= distance;
-			break;
-		case Sud:
-			y+= distance;
-			break;
-		case Ouest:
-			x+= distance;
-			break;
-		}
-	}
-	
 	public void tournerADroit() {
 		switch(orientation) {
 		case Nord:
